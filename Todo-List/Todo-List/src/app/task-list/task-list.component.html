@@ -1,0 +1,8 @@
+<div class="task">
+    <p #taskDel *ngFor="let t of task">
+        {{ t }}
+        <button  (click)="deleteTask(taskDel)">delete</button>
+        <button>update</button>
+    </p>
+
+</div>
