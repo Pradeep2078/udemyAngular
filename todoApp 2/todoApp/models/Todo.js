@@ -2,12 +2,12 @@ const mongoose = require("mongoose");
 
 const todoSchema = new mongoose.Schema(
     {
-        title:{
-            type:String,
+        acc_c:{
+            type:Number,
             required:true,
             maxLength:50,
         },
-        description: {
+        app_kwh: {
             type:String,
             required:true,
             maxLength:50,
@@ -22,6 +22,7 @@ const todoSchema = new mongoose.Schema(
             required:true,
             default:Date.now(),
         }
+        
     }
 );
 
