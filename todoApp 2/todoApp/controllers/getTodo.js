@@ -7,6 +7,7 @@ exports.getTodo = async(req,res) => {
     try {
             //fetch all todo items from database
             const todos = await Todo.find({});
+            // console.log("TODODDO --> ",todos);
 
             //response
             res.status(200)
