@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        border: 2px solid black;
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .container .line {
+        border: 2px solid #d9d9d9;
+        /* margin: 10% auto; */
+        /* max-width: 64%; */
+        padding: 0 60%;
+        position: absolute;
+        /* left: 17%; */
+        top: 11.5%;
+        right: 10%;
+        z-index: -1;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4.1rem;
+        position: relative;
+        top: 34%;
+    }
+
+    .content .para {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid yellow; */
+        width: 20%;
+        background-color: #d9d9d9;
+        padding: 1rem 1.7rem;
+        border-radius: 50%;
+        position: relative;
+        /* left: 15px; */
+        margin: 0 90px;
+        color: blue;
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+
+    .font {
+        font-size: 1.1rem;
+        padding: 10px 0;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .desc {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 19px;
+    }
+
+    .f1 {
+        margin-left: 75px;
+    }
+
+    .f2 {
+        margin-left: 53px;
+    }
+
+    .f3 {
+        margin-left: 40px;
+    }
+
+    .f4 {
+        margin-left: 40px;
+    }
+
+    .f5 {
+        margin-left: 57px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="line"></div>
+        <div class="main-content">
+            <div class="elem1 content">
+                <div class="para">1</div>
+                <p class="font f1">Purchase</p>
+                <div class="desc">
+                    <p class="up">Lorem ipsum dolor sit.</p>
+                    <p class="down">Lorem, ipsum.</p>
+                </div>
+            </div>
+            <div class="elem1 content">
+                <div class="para">2</div>
+                <p class="font f2">Device Fitment</p>
+                <div class="desc">
+                    <p class="up">Lorem ipsum dolor sit.</p>
+                    <p class="down">Lorem, ipsum.</p>
+                </div>
+            </div>
+            <div class="elem3 content">
+                <div class="para">3</div>
+                <p class="font f3">Firmware Installation</p>
+                <div class="desc">
+                    <p class="up">Lorem ipsum dolor sit.</p>
+                    <p class="down">Lorem, ipsum.</p>
+                </div>
+            </div>
+            <div class="elem4 content">
+                <div class="para">4</div>
+                <p class="font f4">Customize Mapping</p>
+                <div class="desc">
+                    <p class="up">Lorem ipsum dolor sit.</p>
+                    <p class="down">Lorem, ipsum.</p>
+                </div>
+            </div>
+            <div class="elem5 content">
+                <div class="para">5</div>
+                <p class="font f5">Device Online</p>
+                <div class="desc">
+                    <p class="up">Lorem ipsum dolor sit.</p>
+                    <p class="down">Lorem, ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
