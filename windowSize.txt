@@ -1,0 +1,13 @@
+const [size, setSize] = useState(window.innerWidth);
+
+  useEffect(() => {
+    
+    console.log(`Window size is to ${size}px`);
+    window.addEventListener("resize",(e)=>{
+      setSize(window.innerWidth)
+    })
+  },[size]);
+
+  return <div>
+    <h1>Window Size is : {size}</h1>
+  </div>;
