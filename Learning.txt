@@ -1,0 +1,21 @@
+Tech :
+1. HTML + CSS + JS *
+2. Angular + React *
+3. Nodejs + MongoDB *
+4. Spring Boot + MySQL
+5. Core Subject -----> OS, DBMS, CN, DS
+6. System Design
+7. Cloud  DevOps
+8. Git + Linux *
+9. React Native
+10. DSA *
+11. Explore Things Like New Tech
+
+* ----> HCJ , Ang + Rec, N+Mdb, DSA, Gi+Li
+**  ----> Ang , DSA, N+Mdb
+
+Daily ** -----> 1. DSA atleast 1 or 2 question daily
+	      2. Implement and explore MEAN Stack over Bajaj platform and practice also
+	      3. Make MongoDB query and implement API in Nodejs.
+	      4. Watch and learn atleast one video on Git + Linux between 2 days.
+	      5. HTML + CSS + JS take one website make feature on daily basis. To make a start watch one video before.
