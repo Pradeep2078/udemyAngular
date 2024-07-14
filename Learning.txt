@@ -18,4 +18,8 @@ Daily ** -----> 1. DSA atleast 1 or 2 question daily
 	      2. Implement and explore MEAN Stack over Bajaj platform and practice also
 	      3. Make MongoDB query and implement API in Nodejs.
 	      4. Watch and learn atleast one video on Git + Linux between 2 days.
+<<<<<<< Updated upstream
 	      5. HTML + CSS + JS take one website make feature on daily basis. To make a start watch one video before.
+=======
+	      5. HTML + CSS + JS take one website make feature on daily basis. To make a start watch one video before. Education Website 			from egator
+>>>>>>> Stashed changes
