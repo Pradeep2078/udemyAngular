@@ -1,8 +1,12 @@
 const express = require('express');
 const app = express();
+const cors = require('cors'); // Import the cors module
 
 require("dotenv").config(); // dotenv used to load the required data into this.
 const PORT = process.env.PORT || 4000;
+
+// Use CORS middleware
+app.use(cors());
 
 // const cookieParser = require("cookie-parser");
 // app.use(cookieParser());

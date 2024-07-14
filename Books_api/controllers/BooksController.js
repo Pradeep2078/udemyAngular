@@ -13,6 +13,7 @@ exports.register = async (req,res) => {
 
         return res.json({
             success: true,
+            data: req.body,
             message: "User Created Successfully",
         })
     } catch(err){
