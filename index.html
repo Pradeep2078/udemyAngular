@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Call Node.js API</title>
+  </head>
+  <body>
+    <h1>Call Node.js API from JavaScript</h1>
+    <button id="fetchButton">Fetch Data</button>
+    <p id="result"></p>
+
+    <script>
+      document.getElementById("fetchButton").addEventListener("click", () => {
+        const data = {
+          username: "kiran1222",
+          email: "kiran@gmail.com",
+          password: "kiranhhd",
+          role: "Admin",
+        };
+        fetch("http://localhost:4000/api/v1/register", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            document.getElementById("result").textContent =
+              JSON.stringify(data);
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      });
+    </script>
+  </body>
+</html>
