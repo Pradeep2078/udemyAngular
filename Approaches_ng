@@ -1,0 +1,65 @@
+1. Template (HTML)
+a. Inline Template
+Directly include HTML within the component decorator.
+b. External Template File
+Use a separate HTML file for the component template.
+c. Template Expressions
+Bind component properties directly using interpolation ({{}}).
+d. Structural Directives
+Use Angular's built-in structural directives like *ngIf, *ngFor.
+e. Attribute Directives
+Apply Angular directives like [ngClass], [ngStyle].
+f. Event Binding
+Bind DOM events to component methods ((event)="method()").
+g. Property Binding
+Bind DOM properties to component properties ([property]="value").
+h. Two-Way Binding
+Use [(ngModel)] for two-way data binding.
+2. TypeScript (TS)
+a. Component Class
+Define component properties and methods within the class.
+b. Services
+Create and inject services for business logic and data fetching.
+c. Observables and RxJS
+Use RxJS observables for asynchronous operations.
+d. Dependency Injection
+Inject dependencies using Angular's DI framework.
+e. Lifecycle Hooks
+Implement Angular lifecycle hooks (ngOnInit, ngOnDestroy, etc.).
+f. Form Handling
+Use reactive or template-driven forms for form management.
+g. Routing
+Configure and use Angular's routing module for navigation.
+h. State Management
+Manage state using services, RxJS, or state management libraries like NgRx.
+3. Styles (SCSS)
+a. Inline Styles
+Define styles directly within the component decorator.
+b. External SCSS File
+Use a separate SCSS file for the component styles.
+c. SCSS Variables
+Use variables to manage and reuse style values.
+d. Nesting
+Use SCSS nesting to structure styles hierarchically.
+e. Mixins
+Create and use SCSS mixins for reusable style blocks.
+f. Conditional Styling
+Apply styles conditionally using Angular directives.
+g. Global Styles
+Define global styles in the styles.scss or angular.json.
+h. Component Scoped Styles
+Use Angular's view encapsulation for component-specific styles.
+4. Advanced Angular Features
+a. Angular Animations
+Define and use animations within the component decorator.
+b. Custom Directives
+Create custom directives for reusable behavior.
+c. Pipes
+Use built-in or custom pipes for data transformation.
+d. Dynamic Components
+Load and manage dynamic components programmatically.
+e. Dependency Injection Tokens
+Use injection tokens for configurable services.
+f. Modules and Lazy Loading
+Organize code into modules and use lazy loading for performance.
+These approaches can be mixed and matched based on the requirements of your Angular application.
