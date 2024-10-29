@@ -1,0 +1,54 @@
+HTTP and HTTPS are **application layer protocols** that operate primarily on the **OSI model** and **TCP/IP model**. Here’s an explanation of which layers are involved and how HTTP/HTTPS fit into these networking models.
+
+---
+
+## **1. OSI Model and HTTP/HTTPS**
+The **OSI (Open Systems Interconnection) model** has 7 layers. HTTP and HTTPS belong to the **Application Layer** in this model, but several other layers work together to ensure communication:
+
+1. **Application Layer (Layer 7)**:  
+   - **HTTP/HTTPS** reside here.  
+   - This layer manages high-level protocols, including the formatting of requests and responses (e.g., GET, POST).
+
+2. **Transport Layer (Layer 4)**:  
+   - Uses **TCP (Transmission Control Protocol)**.  
+   - HTTP and HTTPS rely on **TCP** to ensure reliable transmission of data (three-way handshake, retransmission, etc.).
+
+3. **Network Layer (Layer 3)**:  
+   - Uses **IP (Internet Protocol)** to route packets between sender and receiver.
+
+4. **Data Link Layer (Layer 2)**:  
+   - Manages physical addressing (e.g., MAC addresses) and error detection.
+
+5. **Physical Layer (Layer 1)**:  
+   - The hardware-level transmission medium (e.g., Ethernet cables, Wi-Fi).
+
+In summary, HTTP/HTTPS functions primarily at the **application layer** but depend on **TCP** (at the transport layer) for data delivery.
+
+---
+
+## **2. TCP/IP Model and HTTP/HTTPS**
+In the **TCP/IP model** (which is more practical for internet-based communication), HTTP and HTTPS map to the **Application Layer**. Here's the breakdown:
+
+1. **Application Layer**:  
+   - **HTTP/HTTPS** operate here for client-server communication. 
+
+2. **Transport Layer**:  
+   - Uses **TCP** to ensure reliable data delivery (with sequence numbers, acknowledgments, etc.).  
+   - HTTPS also uses **TLS/SSL** encryption to secure the connection.
+
+3. **Internet Layer**:  
+   - Uses **IP** to handle addressing and routing of packets.
+
+4. **Link Layer**:  
+   - Manages the physical connection between nodes (e.g., Ethernet, Wi-Fi).
+
+---
+
+## **Key Takeaways: HTTP and HTTPS Models**
+- **HTTP and HTTPS rely on the TCP/IP model** for practical implementations but can also be mapped to the **OSI model**.
+- **HTTP/HTTPS use TCP** (not UDP) for connection-oriented and reliable communication.
+- **HTTPS uses TLS/SSL** encryption over TCP to secure communication.
+
+---
+
+If you’re building or troubleshooting network systems involving HTTP/HTTPS, understanding these layers will help you manage issues like encryption, transport reliability, and IP routing efficiently. Let me know if you need further elaboration!
