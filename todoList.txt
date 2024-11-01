@@ -1,0 +1,53 @@
+
+To Do List :
+
+Authentication :
+
+1. Login : Username and Password 
+2. Sign up : Email, Phone Number, Email and Password
+3. Validation in Verification : 
+	a. Username should be case sensitive
+	b. Password should be mix of all symbol, lowercase, uppercase and digit
+	c. Email should be unique and known domain. Check through regex
+	d. Mobile Number should be 10 digit.
+
+Authorization :
+
+1. User should authorized according to like admin and normal user.
+
+Basic CRUD Operation :
+
+1. create task :
+	a. _id, Title, Description, Start date, due date, Priority, sub-task, status, 
+2. update task :
+	a. Title, Description, Due Date, Priority, sub-task, status
+3. read task : get all task from DB.
+4. delete task : delete task
+
+Sort and Filter :
+
+1. sort by : date, priority, status
+2. Filter : Date, status
+3. Date filter : Today, Yesterday, 7 days, 1 month
+
+Email and SMS Notification :
+
+1. Reminder through email. 1day, 2day ahead or custom
+
+List :
+
+1. Make Custom list of task
+
+Pin the task: Pin any task
+
+Implement trash when task deleted.
+
+
+Profile Management :
+
+1. Upload Profile Image
+2. User Data 
+
+
+
+ 
